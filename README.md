@@ -1,23 +1,26 @@
 # Unit 18 PWA Homework: Online/Offline Budget Trackers
 
+This app allows users to access their budget information anytime and fast and easy way to track their money. Having offline functionality is paramount to our applications success.
 ## Link to deployed app
-[Workout Tracker](https://ancient-spire-30161.herokuapp.com/)
+[Budget Tracker](https://serene-lowlands-30885.herokuapp.com/)
+Deployed application with Heroku and MongoDB Atlas.
 ## User Story
-
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+AS AN avid traveller
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
 ## Application Description
 
-Create Mongo database with a Mongoose schema and handle routes with Express.
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-The user should be able to:
+Offline Functionality:
 
-  * Add exercises to a previous workout plan.
+  * Enter deposits offline
 
-  * Add new exercises to a new workout plan.
+  * Enter expenses offline
 
-  * View the combined weight of multiple exercises on the `stats` page.
+When brought back online:
 
+  * Offline entries should be added to tracker.
 ## Contact Information
 Choyo Matsuta: [GitHub link](https://github.com/cmatsuta)
 
